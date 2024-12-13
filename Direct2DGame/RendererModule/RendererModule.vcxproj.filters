@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D2DRenderer">
+      <UniqueIdentifier>{2955b94d-f1df-4b00-acd1-254d73a2de3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{f2e19852-6ab1-4078-bea8-286fb6193ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2DResource">
+      <UniqueIdentifier>{0c06a8ac-9221-406a-b950-c1938cd1bc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2DResource\D2DTexture">
+      <UniqueIdentifier>{69d5bea9-fb17-4b3c-b6da-edce8ca51e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2DCamera">
+      <UniqueIdentifier>{56a7fe67-8d6d-4626-9524-b20db3183d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\RendererDefine">
+      <UniqueIdentifier>{69105393-1041-414a-9a03-40c8415266bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2DEffectFactory">
+      <UniqueIdentifier>{813b835d-8b71-4dd1-9a71-211cb733dff8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D2DResource.h">
+      <Filter>D2DResource</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererPCH.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererHeader.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DTexture.h">
+      <Filter>D2DResource\D2DTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DCamera.h">
+      <Filter>D2DCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererDefine.h">
+      <Filter>Default\RendererDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>D2DRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DEffectFactory.h">
+      <Filter>D2DEffectFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>D2DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DResource.cpp">
+      <Filter>D2DResource</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DTexture.cpp">
+      <Filter>D2DResource\D2DTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DCamera.cpp">
+      <Filter>D2DCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererDefine.cpp">
+      <Filter>Default\RendererDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DEffectFactory.cpp">
+      <Filter>D2DEffectFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

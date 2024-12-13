@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TimeManager.h">
+      <Filter>03.Manager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>03.Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>03.Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>03.Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>02.Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>02.Component\Collider\CircleCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>02.Component\Collider\BoxColider</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>02.Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>02.Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>03.Manager\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>02.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Define\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>02.Component\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>03.Manager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxRenderer.h">
+      <Filter>02.Component\Renderer\BoxRender</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>03.Manager\FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NamingManager.h">
+      <Filter>03.Manager\NamingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRenderer.h">
+      <Filter>02.Component\Renderer\TextureRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>02.Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>02.Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerSet.h">
+      <Filter>03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMe.h" />
+    <ClInclude Include="Broadphase.h">
+      <Filter>03.Manager\CollisionManager\Broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>03.Manager\CollisionManager\Broadphase\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBTree.h">
+      <Filter>03.Manager\CollisionManager\Broadphase\AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>05.Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>02.Component\UI\MouseEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="BarUI.h">
+      <Filter>02.Component\UI\BarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectSort.h">
+      <Filter>Define\GameObjectSort</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcessHeader.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcessPCH.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>02.Component\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraEffect.h">
+      <Filter>03.Manager\CameraManager\CameraEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>03.Manager\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeOut.h">
+      <Filter>03.Manager\CameraManager\CameraEffect\FadeOut</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>03.Manager\ResoureceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>03.Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeIn.h">
+      <Filter>03.Manager\CameraManager\CameraEffect\FadeIn</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleDefine.h">
+      <Filter>02.Component\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>02.Component\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightRenderer.h">
+      <Filter>02.Component\Renderer\PointLightRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightRenderer.h">
+      <Filter>02.Component\Renderer\SpotLightRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeButton.h">
+      <Filter>02.Component\UI\SceneChangerBotton</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>02.Component\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFSM.h">
+      <Filter>02.Component\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStatement.h">
+      <Filter>02.Component\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>02.Component\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectManager.h">
+      <Filter>03.Manager\DircetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ActirngTrigger.h">
+      <Filter>02.Component\ActingTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraAffectedLayer.h">
+      <Filter>02.Component\CameraAffectedLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupWindow.h">
+      <Filter>02.Component\UI\PopUpWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayButton.h">
+      <Filter>02.Component\UI\PlayButton</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursor.h">
+      <Filter>02.Component\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>03.Manager\PhysicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyContactListener.h">
+      <Filter>03.Manager\PhysicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2dPolygonBody.h">
+      <Filter>02.Component\Box2dBody\Box2dPolygonBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Letterbox.h">
+      <Filter>03.Manager\CameraManager\CameraEffect\Letterbox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Define">
+      <UniqueIdentifier>{50c9ea73-f45c-4eba-88a9-20ebeb8de1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\GameWorld">
+      <UniqueIdentifier>{097c4383-6b24-464e-8b33-b8b3732cab90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\GameObjectSort">
+      <UniqueIdentifier>{126dc004-9bef-4d21-883e-913b5fd22d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{9a295eb7-f4fc-4ec7-ad8c-ce618e8e254c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component">
+      <UniqueIdentifier>{41a77953-21b6-4692-9e59-8c1c78138e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Renderer">
+      <UniqueIdentifier>{06a8e95b-9714-4ccd-b1c9-082f4d23e540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Renderer\BoxRender">
+      <UniqueIdentifier>{83c46ca2-a10c-4b88-b044-cde43e044e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Renderer\TextureRenderer">
+      <UniqueIdentifier>{5fecc3ea-62d9-4788-ba15-c84bfc82df13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\UI">
+      <UniqueIdentifier>{b01f574b-c7e4-4253-abf1-9b4e68d7e29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\UI\BarUI">
+      <UniqueIdentifier>{709152f7-3840-4a83-a693-9f027852b209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Collider">
+      <UniqueIdentifier>{9c95c688-e3c0-4043-a354-208973825208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Collider\CircleCollider">
+      <UniqueIdentifier>{c0fa8c9a-6566-432a-8f85-96127ac73db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Collider\BoxColider">
+      <UniqueIdentifier>{0d48476f-073d-4585-8416-b2a7f0cb012e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\RigidBody">
+      <UniqueIdentifier>{aae82191-adf2-4fda-a20a-d09b07ece5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\MonoBehaviour">
+      <UniqueIdentifier>{9be08951-87a8-4b20-bf6c-dba8bac66dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{7b4f96fe-7a1b-4471-b680-522834fdc430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\ParticleSystem">
+      <UniqueIdentifier>{b5bf2981-4bb9-4a24-9a44-060adea9bc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Factory">
+      <UniqueIdentifier>{f6721a3f-2b3c-471a-8428-266f8415a04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager">
+      <UniqueIdentifier>{cce74b3c-9b80-46f1-ac05-915ac072855c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\TimeManager">
+      <UniqueIdentifier>{13218e19-062b-456c-809b-39536336000f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\InputManager">
+      <UniqueIdentifier>{971b1822-3ac0-4eb5-9f2c-1965f78e71cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\SceneManager">
+      <UniqueIdentifier>{23ef4742-1acb-4c58-a7ad-70d434bb4e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\UIManager">
+      <UniqueIdentifier>{51c7efd8-d59f-483d-b087-423dd369d8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\FileManager">
+      <UniqueIdentifier>{ac5b2feb-0562-4e36-b57a-12255b91cc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\NamingManager">
+      <UniqueIdentifier>{b17557d3-8854-4522-bcab-ee40b865ac3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\PathManager">
+      <UniqueIdentifier>{0e845db7-a4d9-4863-a5e6-8377ab6b19e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CameraManager">
+      <UniqueIdentifier>{20bce861-c09f-4cd6-99f7-a241c34c17e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CameraManager\CameraEffect">
+      <UniqueIdentifier>{f9ab5ad7-767f-4493-9039-e9f2c3baba57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CameraManager\CameraEffect\FadeOut">
+      <UniqueIdentifier>{1aeb40ff-33b1-4233-865e-66ef48ae4c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CameraManager\CameraEffect\FadeIn">
+      <UniqueIdentifier>{1c0130bd-971c-4ad9-9bc3-5464ea022d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CollisionManager">
+      <UniqueIdentifier>{163362dd-7a68-4529-87ba-f370a1a9b99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CollisionManager\Broadphase">
+      <UniqueIdentifier>{b867e988-545a-4edf-b93a-fbe1467b570f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CollisionManager\Broadphase\AABBTree">
+      <UniqueIdentifier>{c3d8ba6a-b843-49fd-8d80-4f27c4df56ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CollisionManager\Broadphase\AABB">
+      <UniqueIdentifier>{43d5e70b-0e06-489a-b709-331c24dad265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ResoureceManager">
+      <UniqueIdentifier>{73a8f97e-f934-4a78-8033-1b95b52a6d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\SoundManager">
+      <UniqueIdentifier>{26d8d6db-82eb-42a7-bc5e-ef062336cdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Renderer\PointLightRenderer">
+      <UniqueIdentifier>{deff9af6-4eb5-4d80-bd8b-6570572fb358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Renderer\SpotLightRenderer">
+      <UniqueIdentifier>{d2a72d5d-48b4-4065-ab88-9b689cb63349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\UI\SceneChangerBotton">
+      <UniqueIdentifier>{cb6a02d9-b58f-43a5-844a-a5d7b010e959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Renderer\TextRenderer">
+      <UniqueIdentifier>{04710c5b-9303-47bb-99f5-29ebdb5e8247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\FSM">
+      <UniqueIdentifier>{8d696a89-7a55-4225-8079-9df3f7718c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Animator">
+      <UniqueIdentifier>{07f911db-c510-4562-8792-b11a9806651c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Animator\Animation">
+      <UniqueIdentifier>{83077952-d581-4522-b7e3-168017f72d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Transform">
+      <UniqueIdentifier>{122f0a72-211a-4a8e-a929-0f4b2c234b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Actor">
+      <UniqueIdentifier>{f241257e-d184-48f8-b778-1bf8cf60c441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\DircetManager">
+      <UniqueIdentifier>{75864dfe-72fd-40c8-9b55-d094ba29e74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\ActingTrigger">
+      <UniqueIdentifier>{64dabd3d-cc9d-421d-989a-46863c70103a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\UI\MouseEvent">
+      <UniqueIdentifier>{01fb424a-e940-4078-a113-ac37ff5fab3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\CameraAffectedLayer">
+      <UniqueIdentifier>{8588e74e-383a-4a2d-b2f4-48c6ff3f0885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\UI\PopUpWindow">
+      <UniqueIdentifier>{9f2e7e5b-1fd1-4737-b725-5b4e1ccc4046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\UI\PlayButton">
+      <UniqueIdentifier>{376379a4-a9ed-4359-8b70-9f414a145014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\MouseCursor">
+      <UniqueIdentifier>{636a5630-7ae3-48bb-91b2-edceb119b790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\PhysicsManager">
+      <UniqueIdentifier>{4a1e2609-ba04-4f94-ab41-69357bc9f5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Box2dBody">
+      <UniqueIdentifier>{b4d62a42-ee6a-487a-a53e-4949313f48e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Component\Box2dBody\Box2dPolygonBody">
+      <UniqueIdentifier>{8c653a98-c3ba-43b1-9836-6d97cf406403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CameraManager\CameraEffect\Letterbox">
+      <UniqueIdentifier>{53284bcf-fbf3-47d1-bb46-c3cb4d593f4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>03.Manager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>03.Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>03.Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>03.Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>02.Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>02.Component\Collider\CircleCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>02.Component\Collider\BoxColider</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>02.Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>02.Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>03.Manager\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>02.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Define\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>02.Component\MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>03.Manager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxRenderer.cpp">
+      <Filter>02.Component\Renderer\BoxRender</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>03.Manager\FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NamingManager.cpp">
+      <Filter>03.Manager\NamingManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRenderer.cpp">
+      <Filter>02.Component\Renderer\TextureRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>02.Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>02.Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerSet.cpp">
+      <Filter>03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>03.Manager\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Broadphase.cpp">
+      <Filter>03.Manager\CollisionManager\Broadphase</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBTree.cpp">
+      <Filter>03.Manager\CollisionManager\Broadphase\AABBTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>03.Manager\CollisionManager\Broadphase\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>Define</Filter>
+    </ClCompile>
+    <ClCompile Include="IFactory.cpp">
+      <Filter>05.Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>02.Component\UI\MouseEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="BarUI.cpp">
+      <Filter>02.Component\UI\BarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectSort.cpp">
+      <Filter>Define\GameObjectSort</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>02.Component\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraEffect.cpp">
+      <Filter>03.Manager\CameraManager\CameraEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeOut.cpp">
+      <Filter>03.Manager\CameraManager\CameraEffect\FadeOut</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>03.Manager\ResoureceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>03.Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeIn.cpp">
+      <Filter>03.Manager\CameraManager\CameraEffect\FadeIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>02.Component\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightRenderer.cpp">
+      <Filter>02.Component\Renderer\PointLightRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightRenderer.cpp">
+      <Filter>02.Component\Renderer\SpotLightRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeButton.cpp">
+      <Filter>02.Component\UI\SceneChangerBotton</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>02.Component\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFSM.cpp">
+      <Filter>02.Component\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStatement.cpp">
+      <Filter>02.Component\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>02.Component\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectManager.cpp">
+      <Filter>03.Manager\DircetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ActirngTrigger.cpp">
+      <Filter>02.Component\ActingTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraAffectedLayer.cpp">
+      <Filter>02.Component\CameraAffectedLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupWindow.cpp">
+      <Filter>02.Component\UI\PopUpWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayButton.cpp">
+      <Filter>02.Component\UI\PlayButton</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursor.cpp">
+      <Filter>02.Component\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>03.Manager\PhysicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyContactListener.cpp">
+      <Filter>03.Manager\PhysicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2dPolygonBody.cpp">
+      <Filter>02.Component\Box2dBody\Box2dPolygonBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Letterbox.cpp">
+      <Filter>03.Manager\CameraManager\CameraEffect\Letterbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

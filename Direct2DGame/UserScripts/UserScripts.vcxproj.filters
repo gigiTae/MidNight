@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EX1Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EX2Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDefine.cpp">
+      <Filter>UserDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RabbitComponent.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnCheckPoint.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LightWaver.cpp">
+      <Filter>Component\Paticle</Filter>
+    </ClCompile>
+    <ClCompile Include="CrewScene.cpp">
+      <Filter>MidNightScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>MidNightScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PassPlatform.cpp">
+      <Filter>Component\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaser.cpp">
+      <Filter>Component\Chaser</Filter>
+    </ClCompile>
+    <ClCompile Include="ChasersLight.cpp">
+      <Filter>Component\Chaser</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaserStatements.cpp">
+      <Filter>Component\Chaser</Filter>
+    </ClCompile>
+    <ClCompile Include="EX3Scene.cpp">
+      <Filter>서희</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPractice.cpp">
+      <Filter>서희</Filter>
+    </ClCompile>
+    <ClCompile Include="명기Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FireFly.cpp">
+      <Filter>Component\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontDeco.cpp">
+      <Filter>Component\Deco</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudPlatform.cpp">
+      <Filter>Component\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle.cpp">
+      <Filter>Component\Interact\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideTile.cpp">
+      <Filter>Component\Interact\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Icicle.cpp">
+      <Filter>Component\Interact\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPoint.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Feather.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveItem.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingCube.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMaker.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeechBubble.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Stamp.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMove.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="FreezeEffect.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLife.cpp">
+      <Filter>Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoFog.cpp">
+      <Filter>Component\Deco</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowFall.cpp">
+      <Filter>Component\Deco</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteMap.cpp">
+      <Filter>Component\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Chandlier.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>MidNightScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage02.cpp">
+      <Filter>MidNightScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage03.cpp">
+      <Filter>MidNightScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCutScene.cpp">
+      <Filter>MidNightScene</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkingChild.cpp">
+      <Filter>Component\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ChandlierSwich.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="StandLightFootSwitch.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="StandLight.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="RabbitTunnel.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Component\Interact\공통</Filter>
+    </ClCompile>
+    <ClCompile Include="Webtoon.cpp">
+      <Filter>Component\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearCheck.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ESC.cpp" />
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>MidNightScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialKey.cpp">
+      <Filter>Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Component\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingParticle.cpp">
+      <Filter>Component\Paticle</Filter>
+    </ClCompile>
+    <ClCompile Include="RabbitTunnelBubble.cpp">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalAct.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievement3.cpp">
+      <Filter>Component\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievement2.cpp">
+      <Filter>Component\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievement1.cpp">
+      <Filter>Component\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupBtnUI.cpp" />
+    <ClCompile Include="CheckPosition.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserScriptsHeader.h" />
+    <ClInclude Include="UserScriptsPCH.h" />
+    <ClInclude Include="EX1Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EX2Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDefine.h">
+      <Filter>UserDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RabbitComponent.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponent.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>UserDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnCheckPoint.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LightWaver.h">
+      <Filter>Component\Paticle</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>MidNightScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CrewScene.h">
+      <Filter>MidNightScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PassPlatform.h">
+      <Filter>Component\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaser.h">
+      <Filter>Component\Chaser</Filter>
+    </ClInclude>
+    <ClInclude Include="ChasersLight.h">
+      <Filter>Component\Chaser</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaserStatements.h">
+      <Filter>Component\Chaser</Filter>
+    </ClInclude>
+    <ClInclude Include="EX3Scene.h">
+      <Filter>서희</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsPractice.h">
+      <Filter>서희</Filter>
+    </ClInclude>
+    <ClInclude Include="명기Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FireFly.h">
+      <Filter>Component\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontDeco.h">
+      <Filter>Component\Deco</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudPlatform.h">
+      <Filter>Component\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle.h">
+      <Filter>Component\Interact\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideTile.h">
+      <Filter>Component\Interact\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Icicle.h">
+      <Filter>Component\Interact\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoint.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Feather.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Fog.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveItem.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingCube.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMaker.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeechBubble.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Stamp.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMove.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="FreezeEffect.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLife.h">
+      <Filter>Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoFog.h">
+      <Filter>Component\Deco</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowFall.h">
+      <Filter>Component\Deco</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteMap.h">
+      <Filter>Component\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Chandlier.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>MidNightScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage02.h">
+      <Filter>MidNightScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage03.h">
+      <Filter>MidNightScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCutScene.h">
+      <Filter>MidNightScene</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkingChild.h">
+      <Filter>Component\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StandLight.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="ChandlierSwich.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="StandLightFootSwitch.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="RabbitTunnel.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Component\Interact\공통</Filter>
+    </ClInclude>
+    <ClInclude Include="Webtoon.h">
+      <Filter>Component\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearCheck.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ESC.h" />
+    <ClInclude Include="EndingScene.h">
+      <Filter>MidNightScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialKey.h">
+      <Filter>Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Component\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingParticle.h">
+      <Filter>Component\Paticle</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalAct.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievement3.h">
+      <Filter>Component\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievement2.h">
+      <Filter>Component\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievement1.h">
+      <Filter>Component\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="RabbitTunnelBubble.h">
+      <Filter>Component\Interact\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupBtnUI.h" />
+    <ClInclude Include="CheckPosition.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{23e7e484-e1b3-481b-809a-b57d8ab36c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserDefine">
+      <UniqueIdentifier>{5b9dcddc-35bb-4974-88ed-f1c33042178a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{4cb31c7f-cd88-4d51-8576-c54aeb9b2872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MidNightScene">
+      <UniqueIdentifier>{9b4c420c-a050-4768-a875-8dc2d69453d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{f0a2c7c9-69ad-43a5-b790-b3b5218567b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Interact">
+      <UniqueIdentifier>{a22b41dd-151a-4b97-b1d5-41dac33de824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI">
+      <UniqueIdentifier>{afbda5d6-a153-4c42-bc3d-5e3c4a4d0089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Player">
+      <UniqueIdentifier>{d9b67fbe-063a-4b9b-aed1-7d373db2cdf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Paticle">
+      <UniqueIdentifier>{a38854ef-4a07-441b-9736-6d49daaf1c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Platform">
+      <UniqueIdentifier>{bcef37b6-a022-4082-8685-bc07818ea4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Chaser">
+      <UniqueIdentifier>{9c0489a5-1206-41b7-9c0d-5478a3063a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="서희">
+      <UniqueIdentifier>{90db8de6-cb7c-4b5b-9061-6e4652c20e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Interact\Stage2">
+      <UniqueIdentifier>{d38188b1-86fd-4e23-8578-0c3e3c6a3791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Interact\공통">
+      <UniqueIdentifier>{e9084997-03d8-4a7d-90e7-f0fafac2d614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Deco">
+      <UniqueIdentifier>{a0b6fa5c-b8bc-4130-b390-ccd9e004fcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\MainScene">
+      <UniqueIdentifier>{45497308-27e6-4964-bbc3-81cd34f6e51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Interact\Stage3">
+      <UniqueIdentifier>{087345f8-a23c-4538-a3ed-d1cc19713092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MidNightScene\Stage">
+      <UniqueIdentifier>{0f7747aa-ca71-4820-8678-346c47a526ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\CutScene">
+      <UniqueIdentifier>{bccf76d2-81eb-486e-811b-b1641497cca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Achievement">
+      <UniqueIdentifier>{8d57d7e3-0990-4210-b9d4-4ea6d0f9179e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

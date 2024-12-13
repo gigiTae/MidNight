@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D2DEngine">
+      <UniqueIdentifier>{9376c137-1a65-4685-bc3a-a3b00b325751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{2b39d266-3eae-44c7-a6f2-e879e8696f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{7acafe4e-b171-46c6-beca-db70f3ff1a42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D2DEngine.h">
+      <Filter>D2DEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeader.h" />
+    <ClInclude Include="EnginePCH.h" />
+    <ClInclude Include="IGameProcess.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DEngine.cpp">
+      <Filter>D2DEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameProcess.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
